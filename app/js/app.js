@@ -4,3 +4,7 @@ svg4everybody({
   }
 });
 
+var swiperFood = new Swiper('.food__slider-container', {
+  slidesPerView: 3,
+  spaceBetween: 30,
+});
