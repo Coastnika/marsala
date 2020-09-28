@@ -3,6 +3,7 @@
   padding-top: 16rem;
   padding-bottom: 16rem;
   background: linear-gradient(to right, $color-main 60%, $color-white 60%);
+  color: $color-white;
   &__wrapper{
     display: flex;
     align-items: center;
@@ -13,22 +14,71 @@
       padding-bottom: 4rem;
       margin-bottom: 4rem;
     }
-    &-subtitle{
+    &-title h3{
+      font-size: 50px;
+      line-height: 130%;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+    &-subtitle{ 
+      font-family: 'Montserrat', sans-serif;
       margin-bottom: 4rem;
+      font-size: 16px;
+      line-height: 170%;
     }
     &-link{}
-    &-link a{}
+    &-link a{
+      color: $color-white;
+      text-transform: uppercase;
+    }
   }
   &__slider{
+    overflow: hidden;
     position: absolute;
     right: 0;
-    overflow: hidden;
     width: 53%;
+    transform: translateY(6rem);
+    padding-bottom: 6rem;
     &-image{
       width: 30%;
     }
     &-image img{
       width: 100%;
     }
+  }
+  .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    left: 28%;
+    top: 95%;
+    width: 40px;
+    height: 20px;
+  }
+  .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
+    color: $color-main;
+    font-size: 0px;
+    background-image: url('../img/blocks/food/food-arrow-left.svg');
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 20px;
+  }
+  .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:before{
+    
+  }
+  .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    right: 35%;
+    top: 95%;
+    width: 40px;
+    height: 20px;
+  }
+  .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after{
+    color: $color-main;
+    font-size: 0px;
+    background-image: url('../img/blocks/food/food-arrow-right.svg');
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 20px;
+    transform: rotate(0);
+  }
+  .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:before{
+    
   }
 }
