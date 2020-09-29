@@ -1,0 +1,28 @@
+.footer{
+    padding-top: 15rem;
+    &__logo{
+        display: flex;
+        justify-content: center;
+    }
+    &__nav{
+        &-list{
+            display: flex;
+            justify-content: space-between;
+            width: 72.3rem;
+            margin: auto;
+            padding-top: 5rem;
+            padding-bottom: 4rem;
+        }
+        &-link{
+            color: $color-black;
+            font-size: 16px;
+        }
+    }
+    &__rights{
+        font-size: 14px;
+        line-height: 163.42%;
+        text-align: center;
+        color: $color-rights;
+        padding-bottom: 10rem;
+    }
+}

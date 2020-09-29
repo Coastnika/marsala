@@ -17,5 +17,4 @@ var swiperFood = new Swiper('.food__slider-container', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
 }); 
