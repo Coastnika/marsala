@@ -7,29 +7,96 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <section class="header">
-        <div class="header__container">
-            <div class="header__wrap">
-                <div class="header__logo">
-                    <a href=""><img src="./img/blocks/header/logo.svg" alt=""></a>
+    <div class="page">
+        <section class="header">
+            <div class="header__container">
+                <div class="header__wrap">
+                    <div class="header__logo">
+                        <a href=""><img src="./img/blocks/header/logo.svg" alt=""></a>
+                    </div>
+                    <div class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item"><a href="" class="header__nav-link">О ресторане</a></li>
+                            <li class="header__nav-item"><a href="" class="header__nav-link">Меню</a></li>
+                            <li class="header__nav-item"><a href="" class="header__nav-link">Бронирование столиков</a></li>
+                            <li class="header__nav-item"><a href="" class="header__nav-link">Акции</a></li>
+                            <li class="header__nav-item"><a href="" class="header__nav-link">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__phone">+7 812 314-49-47</div>
+                    <div class="header__languages">
+                        <div class="header__lang">RU</div>
+                        <div class="header__lang">EN</div>
+                    </div>
                 </div>
-                <div class="header__nav">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item"><a href="" class="header__nav-link">О ресторане</a></li>
-                        <li class="header__nav-item"><a href="" class="header__nav-link">Меню</a></li>
-                        <li class="header__nav-item"><a href="" class="header__nav-link">Бронирование столиков</a></li>
-                        <li class="header__nav-item"><a href="" class="header__nav-link">Акции</a></li>
-                        <li class="header__nav-item"><a href="" class="header__nav-link">Контакты</a></li>
-                    </ul>
+
+                <div class="header__content">
+                    <div class="header__content-logo"><img src="./img/blocks/header/logo-main.svg" alt=""></div>
+                    <button class="header__btn">Бронировать столик</button>
                 </div>
-                <div class="header__phone">+7 812 314-49-47</div>
-                <div class="header__languages">
-                    <div class="header__lang">RU</div>
-                    <div class="header__lang">EN</div>
+                <div class="header__address">
+                    Кирочная ул., 5, Санкт-Петербург<br>
+                    Россия, 191028
+                </div>
+                <div class="header__socials">
+                    <div class="header__social">
+                        <img src="./img/blocks/header/insta.svg" alt="">
+                    </div>
+                    <div class="header__social">
+                        <img src="./img/blocks/header/whats.svg" alt="">
+                    </div>
+                    <div class="header__social">
+                        <img src="./img/blocks/header/Vk.svg" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     
-</body>
-</html>
+ 
+        <section class="food">
+            <div class="container">
+                <div class="food__wrapper">
+                    <div class="food__content">
+                        <div class="food__content-title">
+                            <h3>Наше меню</h3>
+                        </div>
+                        <div class="food__content-subtitle">
+                            <p>
+                                Рыбатекст используется дизайнерами, проектировщиками и фронтендерами,
+                                когда нужно быстро заполнить макеты или прототипы содержимым.
+                            </p>
+                        </div>
+                        <div class="food__content-link">
+                            <a href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="food__slider">
+                        <div class="food__slider-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide food__slider-image">
+                                    <img src="./img/blocks/food/food-image_1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide food__slider-image">
+                                    <img src="./img/blocks/food/food-image_2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide food__slider-image">
+                                    <img src="./img/blocks/food/food-image_3.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide food__slider-image">
+                                    <img src="./img/blocks/food/food-image_1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide food__slider-image">
+                                    <img src="./img/blocks/food/food-image_2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide food__slider-image">
+                                    <img src="./img/blocks/food/food-image_3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>

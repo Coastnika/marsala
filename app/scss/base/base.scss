@@ -15,7 +15,6 @@ html, body{
 html{
     font-size: 10px;
     overflow-x: hidden;
-    background-color: #E5E5E5;
     
     @media (max-width:1280px) {
         font-size: 9px;
@@ -45,7 +44,7 @@ body{
     font-size: 1.6rem;
     min-width: 320px;
     position: relative;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Century Gothic';
     line-height: 1;
     font-weight: 400;
 }
@@ -120,6 +119,13 @@ img{
 .container{
     max-width: 1140px;
     margin: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page{
+    position: relative;
+    max-width: 1920px;
+    margin: auto;
+    border-right: 1px solid black;
 }
