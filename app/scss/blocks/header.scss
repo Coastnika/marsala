@@ -108,21 +108,21 @@
 
     }
     &__socials{
-        position: relative;
+        position: absolute;
+        top: 73%;
+        right: 7%;
         &::before{
             position: absolute;
             content: '';
             width: 0.1rem;
             height: 25.2rem;
             top: -30rem;
-            left: 99.2%;
+            left: 50%;
             background-color: $color-white;
         }
     }
     &__social{
         margin-bottom:4rem;
-        position: absolute;
-        right: 0;
     }
 
 }

@@ -4,9 +4,11 @@
   padding-bottom: 16rem;
   background: linear-gradient(to right, $color-main 60%, $color-white 60%);
   color: $color-white;
+
   @media (max-width:540px){
     background: linear-gradient(to bottom, $color-main 60%, $color-white 60%);
   }
+
   &__wrapper{
     display: flex;
     align-items: center;
@@ -24,6 +26,22 @@
       margin-bottom: 4rem;
     }
     &-title h3{
+
+      position: relative;
+      font-size: 50px;
+      line-height: 130%;
+      font-weight: 300;
+      text-transform: uppercase;
+      &::before{
+        position: absolute;
+        content: '';
+        width: 33rem;
+        height: 0.2rem;
+        bottom: -60%;
+        right: 60%;
+        background-color: $color-white;
+      }
+
       font-size: 5rem;
       line-height: 130%;
       font-weight: 300;
@@ -31,12 +49,30 @@
       @media (max-width:540px) {
         font-size: 7rem;
       } 
+
     }
     &-subtitle{ 
       font-family: 'Montserrat', sans-serif;
       margin-bottom: 4rem;
       font-size: 16px;
       line-height: 170%;
+
+      width: 80%;
+    }
+    &-link{}
+    &-link a{
+      color: $color-white;
+      text-transform: uppercase;
+      position: relative;
+      &::before{
+        position: absolute;
+        content: '';
+        width: 7rem;
+        height: 0.1rem;
+        top: 50%;
+        right: -70%;
+        background-color: $color-white;
+      }
     }
     &-link{}
     &-link a{
@@ -46,6 +82,7 @@
       @media (max-width:540px) {
         font-size: 12px;
       } 
+
     }
   }
   &__slider{
@@ -55,6 +92,7 @@
     width: 53%;
     transform: translateY(6rem);
     padding-bottom: 6rem;
+
     @media (max-width:540px){
       position: relative;
       width: 100%;
@@ -69,6 +107,11 @@
   }
   .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
     left: 28%;
+
+    top: 97%;
+    width: 40px;
+    height: 20px;
+
     top: 95%;
     width: 40px;
     height: 20px;
@@ -82,6 +125,7 @@
       transform: scale(1);
       left: 10%;
     }
+
   }
   .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
     color: $color-main;
@@ -90,13 +134,15 @@
     background-repeat: no-repeat;
     width: 38px;
     height: 20px;
-    
   }
   .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:before{
     
   }
   .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
     right: 35%;
+    top: 97%;
+    width: 40px;
+    height: 20px;
     top: 95%;
     width: 40px;
     height: 20px;
@@ -119,7 +165,6 @@
     width: 38px;
     height: 20px;
     transform: rotate(0);
-    
   }
   .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:before{
     
