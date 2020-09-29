@@ -98,21 +98,19 @@
         margin-bottom: 2.9rem;
         cursor: pointer;
     }
-    &__bottom{
-        display: flex;
-    }
     &__address{
         font-size: 14px;
         line-height: 150%;
         text-align: right;
         color: $color-white;
         padding-top: 11.9rem;
-        margin-right: 15%;
         padding-bottom: 12rem;
 
     }
     &__socials{
-        position: relative;
+        position: absolute;
+        top: 73%;
+        right: 7%;
         &::before{
             position: absolute;
             content: '';

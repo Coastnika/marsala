@@ -1,0 +1,81 @@
+.form{
+    &__title{
+        font-size: 5rem;
+        line-height: 130%;
+        color: $color-title;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10rem;
+        padding-bottom: 2rem;
+    }
+    &__subtitle{
+        line-height: 170%;
+        font-size: 16px;
+        text-align: center;
+        color: $color-grey;
+        padding-bottom: 7.3rem;
+    }
+    &__line{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4.3rem;
+    }
+    &__line-second{
+        display: flex;
+        justify-content: space-between;
+        width: 72rem;
+        margin-bottom: 4.7rem;
+    }
+    &__wrap-date{
+        margin-top: -2.2rem;
+        width: 34rem;
+    }
+    &__input{
+        border: 0;
+        border-bottom: 2px solid $color-input;
+        width: 34rem;
+        outline: 0; 
+        font-size: 18px;
+        line-height: 170%;
+        color: $color-black;
+        opacity: 0.5;
+        padding-bottom: 0.5rem;
+        font-family: 'Century Gothic';
+    }
+    &__name{
+        font-size: 12px;
+        line-height: 170%;
+        color: $color-black;
+        opacity: 0.5;
+    }
+    &__list{
+        border: 0;
+        border-bottom: 2px solid $color-input;
+        width: 34rem;
+        outline: 0; 
+        font-size: 18px;
+        line-height: 170%;
+        color: $color-black;
+        opacity: 0.5;
+        padding-bottom: 0.5rem;
+        font-family: 'Century Gothic';
+    }
+    &__button-wrap{
+        text-align: center;
+    }
+    &__btn{
+        color: $color-white;
+        font-size: 2rem;
+        width: 33rem;
+        height: 8rem;
+        border: none;
+        background: $color-main;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin-bottom: 10rem;
+        cursor: pointer;
+    }
+}
+.online{
+    color: $color-title2;
+}
