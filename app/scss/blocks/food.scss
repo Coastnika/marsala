@@ -4,17 +4,29 @@
   padding-bottom: 16rem;
   background: linear-gradient(to right, $color-main 60%, $color-white 60%);
   color: $color-white;
+
+  @media (max-width:540px){
+    background: linear-gradient(to bottom, $color-main 60%, $color-white 60%);
+  }
+
   &__wrapper{
     display: flex;
     align-items: center;
+    @media (max-width:540px){
+      display: block;
+    }
   }
   &__content{
     width: 40%;
+    @media (max-width:540px){
+      width: 100%;
+    }
     &-title{
       padding-bottom: 4rem;
       margin-bottom: 4rem;
     }
     &-title h3{
+
       position: relative;
       font-size: 50px;
       line-height: 130%;
@@ -29,12 +41,22 @@
         right: 60%;
         background-color: $color-white;
       }
+
+      font-size: 5rem;
+      line-height: 130%;
+      font-weight: 300;
+      text-transform: uppercase;
+      @media (max-width:540px) {
+        font-size: 7rem;
+      } 
+
     }
     &-subtitle{ 
       font-family: 'Montserrat', sans-serif;
       margin-bottom: 4rem;
       font-size: 16px;
       line-height: 170%;
+
       width: 80%;
     }
     &-link{}
@@ -52,6 +74,16 @@
         background-color: $color-white;
       }
     }
+    &-link{}
+    &-link a{
+      font-size: 16px;
+      color: $color-white;
+      text-transform: uppercase;
+      @media (max-width:540px) {
+        font-size: 12px;
+      } 
+
+    }
   }
   &__slider{
     overflow: hidden;
@@ -60,6 +92,12 @@
     width: 53%;
     transform: translateY(6rem);
     padding-bottom: 6rem;
+
+    @media (max-width:540px){
+      position: relative;
+      width: 100%;
+      padding-bottom: 12rem;
+    }
     &-image{
       width: 30%;
     }
@@ -69,9 +107,25 @@
   }
   .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
     left: 28%;
+
     top: 97%;
     width: 40px;
     height: 20px;
+
+    top: 95%;
+    width: 40px;
+    height: 20px;
+    outline: none;
+    @media(max-width:960px){
+      top: 98%;
+      transform: scale(.7);
+    }
+    @media(max-width:540px){
+      top: 100%;
+      transform: scale(1);
+      left: 10%;
+    }
+
   }
   .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
     color: $color-main;
@@ -89,6 +143,19 @@
     top: 97%;
     width: 40px;
     height: 20px;
+    top: 95%;
+    width: 40px;
+    height: 20px;
+    outline: none;
+    @media(max-width:960px){
+      top: 98%;
+      transform: scale(.7);
+    }
+    @media(max-width:540px){
+      top: 100%;
+      transform: scale(1);
+      right: 10%;
+    }
   }
   .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after{
     color: $color-main;
