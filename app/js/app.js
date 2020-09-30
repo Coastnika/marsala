@@ -4,6 +4,22 @@ svg4everybody({
   }
 });
 
+  //init toggle menu
+
+  let toggle = document.querySelector('.header__toggle');
+  let menu = document.querySelector('.header__nav');
+  
+  function toggleMenu(){
+    menu.classList.toggle('header__nav--toggle');
+
+    document.querySelector('#menu-item-top').classList.toggle('header__toggle-item--top');
+    document.querySelector('#menu-item-mid').classList.toggle('header__toggle-item--mid');
+    document.querySelector('#menu-item-bot').classList.toggle('header__toggle-item--bot');
+    
+  }
+
+  toggle.onclick = toggleMenu;
+
 var swiperFood = new Swiper('.food__slider-container', {
   slidesPerView: 1,
   spaceBetween: 30,
