@@ -1,6 +1,6 @@
 .footer{
     @media (max-width:540px){
-      padding-top: 45rem;
+      padding-top: 55rem;
     }
     &__logo{
         display: flex;
@@ -14,10 +14,15 @@
             margin: auto;
             padding-top: 5rem;
             padding-bottom: 4rem;
+            @media (max-width:960px) {
+                max-width: 100rem;
+            }
             @media (max-width:540px){
                 flex-direction: column;
                 width: 70%;
                 text-align: center;
+                padding-top: 10rem;
+                padding-bottom: 5rem;
             }
         }
         &-item{
