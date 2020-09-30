@@ -1,5 +1,7 @@
 .footer{
-    padding-top: 15rem;
+    @media (max-width:540px){
+      padding-top: 45rem;
+    }
     &__logo{
         display: flex;
         justify-content: center;
@@ -8,10 +10,13 @@
         &-list{
             display: flex;
             justify-content: space-between;
-            width: 72.3rem;
+            max-width: 72.3rem;
             margin: auto;
             padding-top: 5rem;
             padding-bottom: 4rem;
+            @media (max-width:540px){
+                flex-direction: column;
+            }
         }
         &-link{
             color: $color-black;

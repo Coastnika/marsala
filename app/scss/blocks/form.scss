@@ -7,6 +7,9 @@
         text-transform: uppercase;
         padding-top: 10rem;
         padding-bottom: 2rem;
+        @media (max-width:540px) {
+            font-size: 7rem;
+        }
     }
     &__subtitle{
         line-height: 170%;
@@ -15,20 +18,22 @@
         color: $color-grey;
         padding-bottom: 7.3rem;
     }
-    &__line{
+    &__wrap{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 4.3rem;
-    }
-    &__line-second{
-        display: flex;
-        justify-content: space-between;
-        width: 72rem;
+        text-align: center;
         margin-bottom: 4.7rem;
+        @media (max-width:540px) {
+            flex-direction: column;
+        }
     }
-    &__wrap-date{
-        margin-top: -2.2rem;
-        width: 34rem;
+    &__column{
+        @media (max-width:540px) {
+            margin-bottom: 4.3rem;
+        }
+        &--second{
+            margin-top: -2.1rem;
+        }
     }
     &__input{
         border: 0;
@@ -40,7 +45,11 @@
         color: $color-black;
         opacity: 0.5;
         padding-bottom: 0.5rem;
+        margin-bottom: 4.3rem;
         font-family: 'Century Gothic';
+        @media (max-width:540px) {
+            width: 100%;
+        }
     }
     &__name{
         font-size: 12px;
@@ -59,6 +68,7 @@
         opacity: 0.5;
         padding-bottom: 0.5rem;
         font-family: 'Century Gothic';
+        margin-top: 0.6rem;
     }
     &__button-wrap{
         text-align: center;
@@ -74,6 +84,11 @@
         text-transform: uppercase;
         margin-bottom: 10rem;
         cursor: pointer;
+        @media (max-width:540px){
+            font-size: 3rem;
+            width: 43rem;
+            height: 12rem;
+        }
     }
 }
 .online{
