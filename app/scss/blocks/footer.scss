@@ -16,6 +16,13 @@
             padding-bottom: 4rem;
             @media (max-width:540px){
                 flex-direction: column;
+                width: 70%;
+                text-align: center;
+            }
+        }
+        &-item{
+            @media (max-width:540px){
+                margin-bottom: 2rem;
             }
         }
         &-link{
