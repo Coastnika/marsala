@@ -1,5 +1,6 @@
 .contact{
     z-index: 1;
+    
     &__content{
         max-width: 114rem;
         margin: auto;
@@ -13,12 +14,13 @@
         align-items: center;
         padding: 5rem 5rem;
         @media (max-width:540px){
-            flex-direction: column;
+            display: block;
+            border: 1px solid $color-main;
         }
     }
-    &__column{
+    &__column:not(:last-child){
         @media (max-width:540px){
-            margin-bottom: 25px;
+            margin-bottom: 35px;
         }
     }
     &__mail{
@@ -37,10 +39,15 @@
         width: 18.7rem;
         justify-content: space-between;
         width: 18.7rem;
-        height: 4rem;
         @media (max-width:540px){
             width: 100%;
+            justify-content: flex-start;
           }
+    }
+    &__social:not(:last-child){
+        @media (max-width:540px){
+            margin-right: 5rem;
+        }
     }
     &__name{
         font-size: 16px;
@@ -67,6 +74,12 @@
         align-items: center;
         @media (max-width:540px){
             width: 100%;
-          }
+            justify-content: flex-start;
+        }
+    }
+    &__call-social:not(:last-child){
+        @media (max-width:540px){
+            margin-right: 2rem;
+        }
     }
 }
