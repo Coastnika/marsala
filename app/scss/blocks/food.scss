@@ -67,6 +67,17 @@
       @media (max-width:540px) {
         font-size: 12px;
       } 
+
+    }
+    &-link{}
+    &-link a{
+      font-size: 16px;
+      color: $color-white;
+      text-transform: uppercase;
+      @media (max-width:540px) {
+        font-size: 12px;
+      } 
+
     }
   }
   &__slider{

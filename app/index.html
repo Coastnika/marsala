@@ -24,7 +24,7 @@
                             <li class="header__nav-item"><a href="" class="header__nav-link">Контакты</a></li>
                         </ul>
                     </div>
-                    <a href="" class="header__phone">+7 812 314-49-47</a>
+                    <div class="header__phone">+7 812 314-49-47</div>
                     <div class="header__languages">
                         <div class="header__lang">RU</div>
                         <div class="header__lang">EN</div>
@@ -41,17 +41,8 @@
                         Россия, 191028
                     </div>
                 </div>
-                <div class="header__socials">
-                    <div class="header__social">
-                        <img src="./img/blocks/header/insta.svg" alt="">
-                    </div>
-                    <div class="header__social">
-                        <img src="./img/blocks/header/whats.svg" alt="">
-                    </div>
-                    <div class="header__social">
-                        <img src="./img/blocks/header/Vk.svg" alt="">
-                    </div>
-                </div>
+                
+
                     <div class="header__socials">
                         <div class="header__social">
                             <a href=""><img src="./img/blocks/header/insta.svg" alt=""></a>
@@ -98,8 +89,10 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
+    
  
         <section class="food">
             <div class="container">
@@ -153,23 +146,28 @@
             <div class="container">
                 <div class="form__title">Бронируй столик <span class="online">онлайн</span></div>
                 <div class="form__subtitle">Заполните форму, и мы свяжемся с вами для подтверждения брони столика.</div>
-                <div class="form__wrap">
-                    <div class="form__column">
+                <div class="form__line">
+                    <div class="form__wrap">
                         <input type="text" class="form__input" placeholder="Ваше имя">
-                        <input type="number" class="form__input" placeholder="Телефон">
                     </div>
-                    <div class="form__column form__column--second">
-                        <label class="form__name">Дата бронирования<input type="date" class="form__input" placeholder=""></label>
-                        <select class="form__list" name="" id="">
-                            <option value="">Количество персон</option>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                        </select>
+                    <div class="form__wrap-date">
+                        <label for="names" class="form__name">Дата бронирования</label>
+                        <input type="date" class="form__input" placeholder="">
                     </div>
-                    <div class="form__column">
+                    <div class="form__wrap">
                         <input type="time" class="form__input" placeholder="">
                     </div>
+                </div>
+                <div class="form__line-second">
+                    <div class="form__wrap">
+                        <input type="number" class="form__input" placeholder="Телефон">
+                    </div>
+                   <select class="form__list" name="" id="">
+                       <option value="">Количество персон</option>
+                       <option value="">1</option>
+                       <option value="">2</option>
+                       <option value="">3</option>
+                   </select>
                 </div>
                 <div class="form__button-wrap">
                     <button class="form__btn">Бронировать столик</button>
@@ -184,7 +182,7 @@
                     Россия, 191028
                 </div>
                 <div class="map__placeholder">
-                    <a href=""><img src="./img/blocks/map/placeholder.svg" alt=""></a>
+                    <img src="./img/blocks/map/placeholder.svg" alt="">
                 </div>
             </div>
         </section>
@@ -226,8 +224,8 @@
                                     <a href=""><img src="./img/blocks/contact/Vk.svg" alt=""></a>
                                 </div>
                             </div>
-                            <div class="contact__name">Мы в социальных сетях</div>
                         </div>
+                        <div class="map__name">Мы в социальных сетях</div>
                     </div>
                 </div>
             </div>
