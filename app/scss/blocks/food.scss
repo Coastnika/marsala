@@ -25,10 +25,6 @@
       margin-bottom: 4rem;
     }
     &-title h3{
-<<<<<<< HEAD
-=======
-
->>>>>>> 8137e33368cff69ffe15ac5564dcd81bd2c4a9bb
       position: relative;
       font-size: 5rem;
       line-height: 130%;
@@ -43,28 +39,15 @@
         right: 60%;
         background-color: $color-white;
       }
-<<<<<<< HEAD
       @media (max-width:540px) {
         font-size: 7rem;
       } 
-=======
-
-      font-size: 5rem;
-      line-height: 130%;
-      font-weight: 300;
-      text-transform: uppercase;
-      @media (max-width:540px) {
-        font-size: 7rem;
-      } 
-
->>>>>>> 8137e33368cff69ffe15ac5564dcd81bd2c4a9bb
     }
     &-subtitle{ 
       font-family: 'Montserrat', sans-serif;
       margin-bottom: 4rem;
       font-size: 16px;
       line-height: 170%;
-
       width: 80%;
     }
     &-link{}
@@ -81,22 +64,9 @@
         right: -70%;
         background-color: $color-white;
       }
-<<<<<<< HEAD
       @media (max-width:540px) {
         font-size: 12px;
       } 
-=======
-    }
-    &-link{}
-    &-link a{
-      font-size: 16px;
-      color: $color-white;
-      text-transform: uppercase;
-      @media (max-width:540px) {
-        font-size: 12px;
-      } 
-
->>>>>>> 8137e33368cff69ffe15ac5564dcd81bd2c4a9bb
     }
   }
   &__slider{
