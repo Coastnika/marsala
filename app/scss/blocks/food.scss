@@ -42,16 +42,12 @@
       @media (max-width:540px) {
         font-size: 7rem;
       } 
-      @media (max-width:540px) {
-        font-size: 7rem;
-      } 
     }
     &-subtitle{ 
       font-family: 'Montserrat', sans-serif;
       margin-bottom: 4rem;
       font-size: 16px;
       line-height: 170%;
-
       width: 80%;
     }
     &-link{}
@@ -71,6 +67,7 @@
       @media (max-width:540px) {
         font-size: 12px;
       } 
+
     }
     &-link{}
     &-link a{
