@@ -1,6 +1,5 @@
 .contact{
     z-index: 1;
-    
     &__content{
         max-width: 114rem;
         margin: auto;
@@ -27,11 +26,17 @@
         font-size: 30px;
         line-height: 130%;
         color: $color-main;
+        @media(min-width: 541px) and (max-width: 768px){
+            font-size: 20px;
+        }
     }
     &__phone{
         font-size: 30px;
         line-height: 130%;
         color: $color-main;
+        @media(min-width: 541px) and (max-width: 768px){
+            font-size: 20px;
+        }
     }
     &__socials{
         display: flex;
@@ -43,6 +48,9 @@
             width: 100%;
             justify-content: flex-start;
           }
+        @media(min-width: 541px) and (max-width: 768px){
+            width: 100%;
+        }
     }
     &__social:not(:last-child){
         @media (max-width:540px){
@@ -75,6 +83,9 @@
         @media (max-width:540px){
             width: 100%;
             justify-content: flex-start;
+        }
+        @media(min-width: 541px) and (max-width: 768px){
+            width: 100%;
         }
     }
     &__call-social:not(:last-child){

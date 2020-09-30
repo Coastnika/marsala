@@ -18,3 +18,17 @@ var swiperFood = new Swiper('.food__slider-container', {
     prevEl: '.swiper-button-prev',
   },
 }); 
+
+var swiperAlco = new Swiper('.alco__slider-container', {
+  slidesPerView: 1,
+  spaceBetween: 40,
+  loop: true,
+  breakpoints: {
+    540: {
+      slidesPerView: 2,
+    }
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+  },
+}); 
