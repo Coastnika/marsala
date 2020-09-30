@@ -24,13 +24,12 @@
                             <li class="header__nav-item"><a href="" class="header__nav-link">Контакты</a></li>
                         </ul>
                     </div>
-                    <div class="header__phone">+7 812 314-49-47</div>
+                    <a href="" class="header__phone">+7 812 314-49-47</a>
                     <div class="header__languages">
                         <div class="header__lang">RU</div>
                         <div class="header__lang">EN</div>
                     </div>
                 </div>
-
                 <div class="container">
                     <div class="header__content">
                         <div class="header__content-logo"><img src="./img/blocks/header/logo-main.svg" alt=""></div>
@@ -43,18 +42,52 @@
                 </div>
                     <div class="header__socials">
                         <div class="header__social">
-                            <img src="./img/blocks/header/insta.svg" alt="">
+                            <a href=""><img src="./img/blocks/header/insta.svg" alt=""></a>
                         </div>
                         <div class="header__social">
-                            <img src="./img/blocks/header/whats.svg" alt="">
+                            <a href=""><img src="./img/blocks/header/whats.svg" alt=""></a>
                         </div>
                         <div class="header__social">
-                            <img src="./img/blocks/header/Vk.svg" alt="">
+                            <a href=""><img src="./img/blocks/header/Vk.svg" alt=""></a>
                         </div>
                     </div>
             </div>
         </section>
-    
+
+        <section class="alco">
+            <div class="container">
+                <div class="alco__wrapper">
+                    <div class="alco__content">
+                        <div class="alco__content-title">
+                            <h3>Гастробар <span class="marsala">MARSALA</span></h3>
+                        </div>
+                        <div class="alco__content-subtitle">
+                            <p>
+                                Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.                            </p>
+                        </div>
+                        <div class="alco__content-link">
+                            <a href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="alco__slider">
+                        <div class="alco__slider-container">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide alco__slider-image">
+                                    <img src="./img/blocks/alco/place.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide alco__slider-image">
+                                    <img src="./img/blocks/alco/place2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide alco__slider-image">
+                                    <img src="./img/blocks/alco/place2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
  
         <section class="food">
             <div class="container">
@@ -107,28 +140,23 @@
             <div class="container">
                 <div class="form__title">Бронируй столик <span class="online">онлайн</span></div>
                 <div class="form__subtitle">Заполните форму, и мы свяжемся с вами для подтверждения брони столика.</div>
-                <div class="form__line">
-                    <div class="form__wrap">
+                <div class="form__wrap">
+                    <div class="form__column">
                         <input type="text" class="form__input" placeholder="Ваше имя">
-                    </div>
-                    <div class="form__wrap-date">
-                        <label for="names" class="form__name">Дата бронирования</label>
-                        <input type="date" class="form__input" placeholder="">
-                    </div>
-                    <div class="form__wrap">
-                        <input type="time" class="form__input" placeholder="">
-                    </div>
-                </div>
-                <div class="form__line-second">
-                    <div class="form__wrap">
                         <input type="number" class="form__input" placeholder="Телефон">
                     </div>
-                   <select class="form__list" name="" id="">
-                       <option value="">Количество персон</option>
-                       <option value="">1</option>
-                       <option value="">2</option>
-                       <option value="">3</option>
-                   </select>
+                    <div class="form__column form__column--second">
+                        <label class="form__name">Дата бронирования<input type="date" class="form__input" placeholder=""></label>
+                        <select class="form__list" name="" id="">
+                            <option value="">Количество персон</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </div>
+                    <div class="form__column">
+                        <input type="time" class="form__input" placeholder="">
+                    </div>
                 </div>
                 <div class="form__button-wrap">
                     <button class="form__btn">Бронировать столик</button>
@@ -143,41 +171,50 @@
                     Россия, 191028
                 </div>
                 <div class="map__placeholder">
-                    <img src="./img/blocks/map/placeholder.svg" alt="">
+                    <a href=""><img src="./img/blocks/map/placeholder.svg" alt=""></a>
                 </div>
-                <div class="map__wrap">
-                    <div class="map__contact">
-                        <div class="map__mail">info@gmail.com</div>
-                        <div class="map__phone">+7 812 314-49-47</div>
-                        <div class="map__socials">
-                            <div class="map__social">
-                                <img src="./img/blocks/map/insta.svg" alt="">
-                            </div>
-                            <div class="map__social">
-                                <img src="./img/blocks/map/whats.svg" alt="">
-                            </div>
-                            <div class="map__social">
-                                <img src="./img/blocks/map/Vk.svg" alt="">
-                            </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="contact__content">
+                    <div class="contact__wrap">
+                        <div class="contact__column">
+                            <a href="mailto:info@gmail.com" class="contact__mail">info@gmail.com</a>
+                            <div class="contact__name">Напишите нам</div>
                         </div>
-                    </div>
-                    <div class="map__contact map__contact--second">
-                        <div class="map__name">Напишите нам</div>
-                        <div class="map__call">
-                            <div class="map__call-name">Позвонить</div>
-                            <div class="map__call-socials">
-                                <div class="map__call-social">
-                                    <img src="./img/blocks/map/telegram.svg" alt="">
-                                </div>
-                                <div class="map__call-social">
-                                    <img src="./img/blocks/map/whatsapp.svg" alt="">
-                                </div>
-                                <div class="map__call-social">
-                                    <img src="./img/blocks/map/call.svg" alt="">
+                        <div class="contact__column">
+                            <a href="" class="contact__phone">+7 812 314-49-47</a>
+                            <div class="contact__call">
+                                <div class="contact__call-name">Позвонить</div>
+                                <div class="contact__call-socials">
+                                    <div class="contact__call-social">
+                                        <a href=""><img src="./img/blocks/map/telegram.svg" alt=""></a>
+                                    </div>
+                                    <div class="contact__call-social">
+                                        <a href=""><img src="./img/blocks/map/whatsapp.svg" alt=""></a>
+                                    </div>
+                                    <div class="contact__call-social">
+                                        <a href=""><img src="./img/blocks/map/call.svg" alt=""></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="map__name">Мы в социальных сетях</div>
+                        <div class="contact__column">
+                            <div class="contact__socials">
+                                <div class="contact__social">
+                                    <a href=""><img src="./img/blocks/map/insta.svg" alt=""></a>
+                                </div>
+                                <div class="contact__social">
+                                    <a href=""><img src="./img/blocks/map/whats.svg" alt=""></a>
+                                </div>
+                                <div class="contact__social">
+                                    <a href=""><img src="./img/blocks/map/Vk.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="contact__name">Мы в социальных сетях</div>
+                        </div>
                     </div>
                 </div>
             </div>
