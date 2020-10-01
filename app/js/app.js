@@ -47,6 +47,7 @@ var swiperAbout = new Swiper('.about__slider-container', {
   navigation: {
     nextEl: '.swiper-button-next',
   },
+});
 
 let header = document.querySelector('.header');
 

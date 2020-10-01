@@ -6,11 +6,7 @@
     position: relative;
     z-index: 1;
     transition: $transition;
-<<<<<<< HEAD
     background-color: $color-main;
-=======
-
->>>>>>> 961771ea687a816b3f253d63700c6e10fc83e9b5
     &-tab{
         background-image: url(../img/blocks/header/header__background_2.jpg);
     }
@@ -105,7 +101,7 @@
             &::before{
                 position: absolute;
                 content: '';
-                width: 100%;
+                width: 0%;
                 height: 0.2rem;
                 left: 0;
                 bottom: -1rem;
@@ -114,6 +110,7 @@
                 opacity: 0;
             }
             &:hover::before{
+                width: 100%;
                 opacity: 1;
             }
             @media (max-width:1024px){
