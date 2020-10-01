@@ -1,11 +1,9 @@
 .map{
-    background-image: url(../img/blocks/map/map.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
     z-index: 1;
-    height: 60rem;
+    & iframe{
+        height: 60rem;
+    }
     &__address{
         position: relative;
         font-size: 1.6rem;
