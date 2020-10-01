@@ -130,9 +130,6 @@
     width: 38px;
     height: 20px;
   }
-  .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:before{
-    
-  }
   .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
     right: 35%;
     top: 97%;
@@ -160,8 +157,5 @@
     width: 38px;
     height: 20px;
     transform: rotate(0);
-  }
-  .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:before{
-    
   }
 }

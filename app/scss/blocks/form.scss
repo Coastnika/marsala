@@ -54,12 +54,16 @@
         margin-bottom: 4.3rem;
         font-family: 'Century Gothic';
         position: relative;
+        transition: $transition;
         @media (max-width:768px) {
             font-size: 14px;
         }
         @media (max-width:540px) {
             width: 100%;
             font-size: 16px;
+        }
+        &:focus{
+            border-bottom: 2px solid $color-main;
         }
         &-date{
             position: relative;
