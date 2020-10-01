@@ -6,6 +6,7 @@
     position: relative;
     z-index: 1;
     transition: $transition;
+    background-color: $color-main;
     &-tab{
         background-image: url(../img/blocks/header/header__background_2.jpg);
     }

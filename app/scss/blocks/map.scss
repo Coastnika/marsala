@@ -5,7 +5,9 @@
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
-    height: 60rem;
+    & iframe{
+        height: 60rem;
+    }
     &__address{
         position: relative;
         font-size: 1.6rem;
