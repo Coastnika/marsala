@@ -35,7 +35,7 @@ var swiperFood = new Swiper('.food__slider-container', {
   },
 }); 
 
-var swiperAlco = new Swiper('.alco__slider-container', {
+var swiperAbout = new Swiper('.about__slider-container', {
   slidesPerView: 1,
   spaceBetween: 40,
   loop: true,
