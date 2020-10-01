@@ -4,21 +4,21 @@ svg4everybody({
   }
 });
 
-  //init toggle menu
+//init toggle menu
 
-  let toggle = document.querySelector('.header__toggle');
-  let menu = document.querySelector('.header__nav');
-  
-  function toggleMenu(){
-    menu.classList.toggle('header__nav--toggle');
+let toggle = document.querySelector('.header__toggle');
+let menu = document.querySelector('.header__nav');
 
-    document.querySelector('#menu-item-top').classList.toggle('header__toggle-item--top');
-    document.querySelector('#menu-item-mid').classList.toggle('header__toggle-item--mid');
-    document.querySelector('#menu-item-bot').classList.toggle('header__toggle-item--bot');
-    
-  }
+function toggleMenu() {
+  menu.classList.toggle('header__nav--toggle');
 
-  toggle.onclick = toggleMenu;
+  document.querySelector('#menu-item-top').classList.toggle('header__toggle-item--top');
+  document.querySelector('#menu-item-mid').classList.toggle('header__toggle-item--mid');
+  document.querySelector('#menu-item-bot').classList.toggle('header__toggle-item--bot');
+
+}
+
+toggle.onclick = toggleMenu;
 
 var swiperFood = new Swiper('.food__slider-container', {
   slidesPerView: 1,
@@ -33,7 +33,7 @@ var swiperFood = new Swiper('.food__slider-container', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-}); 
+});
 
 var swiperAbout = new Swiper('.about__slider-container', {
   slidesPerView: 1,
@@ -47,9 +47,6 @@ var swiperAbout = new Swiper('.about__slider-container', {
   navigation: {
     nextEl: '.swiper-button-next',
   },
-}); 
-
-
 
 let header = document.querySelector('.header');
 
@@ -58,3 +55,4 @@ function tab(){
 }
 
 setInterval(tab, 5000)
+
