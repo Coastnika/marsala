@@ -47,12 +47,12 @@ var swiperAbout = new Swiper('.about__slider-container', {
   navigation: {
     nextEl: '.swiper-button-next',
   },
-});
 
 let header = document.querySelector('.header');
 
-function tab() {
+function tab(){
   header.classList.toggle('header-tab');
 }
 
-setInterval(tab, 3000)
+setInterval(tab, 5000)
+
