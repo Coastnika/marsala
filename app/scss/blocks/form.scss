@@ -78,6 +78,17 @@
             left: 0;
             opacity: .5;
         }
+        &-time::before{
+            @media(max-width:540px){
+                position: absolute;
+                content: 'Время';
+                font-size: 12px;
+                top: -16px;
+                left: 0;
+                opacity: .5;
+            }
+           
+        }
     }
     &__name{
         font-size: 12px;
