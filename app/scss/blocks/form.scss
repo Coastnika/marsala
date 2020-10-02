@@ -58,7 +58,7 @@
         @media (max-width:768px) {
             font-size: 14px;
         }
-        @media (max-width:540px) {
+        @media (max-width:768px) {
             width: 100%;
             font-size: 16px;
             height: 25px;
@@ -81,7 +81,7 @@
             position: relative;
         }
         &-time::before{
-            @media(max-width:540px){
+            @media(max-width:768px){
                 position: absolute;
                 content: 'Время';
                 font-size: 12px;
@@ -111,7 +111,7 @@
         margin-bottom: 4.3rem;
         &-title{
             @media(max-width: 540px){
-                font-size: 0px;
+                display: none;
             }
         }
         @media (max-width:768px) {
