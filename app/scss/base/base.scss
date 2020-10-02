@@ -129,3 +129,7 @@ img{
     margin: auto;
     overflow: hidden;
 }
+
+input, textarea, select {
+    -webkit-appearance: none;
+}
