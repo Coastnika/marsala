@@ -78,6 +78,14 @@
             left: 0;
             opacity: .5;
         }
+        &-time::before{
+            position: absolute;
+            content: 'Время бронирования';
+            font-size: 12px;
+            top: -16px;
+            left: 0;
+            opacity: .5;
+        }
     }
     &__name{
         font-size: 12px;
