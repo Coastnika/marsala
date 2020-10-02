@@ -78,6 +78,9 @@
             left: 0;
             opacity: .5;
         }
+        &-time{
+            position: relative;
+        }
         &-time::before{
             @media(max-width:540px){
                 position: absolute;
