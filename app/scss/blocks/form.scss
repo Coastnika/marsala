@@ -55,6 +55,7 @@
         font-family: 'Century Gothic';
         position: relative;
         transition: $transition;
+        transition: $transition;
         @media (max-width:768px) {
             font-size: 14px;
         }
